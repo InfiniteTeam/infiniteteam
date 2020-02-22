@@ -486,7 +486,7 @@ h6 {
 
 #about {
   background: #fff;
-  padding: 60px 0;
+  padding: 60px 0px 0px;
 }
 
 #about .about-container .background {
@@ -732,7 +732,7 @@ h6 {
 --------------------------------*/
 #bots {
   background: #fff;
-  padding: 60px 0;
+  padding: 0 0 60px 0;
 }
 
 #bots .bots-container .background {
