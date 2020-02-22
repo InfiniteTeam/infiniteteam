@@ -120,6 +120,8 @@ h6 {
   }
 }
 
+@font-face { font-family: 'GyeonggiTitleM'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -186,7 +188,8 @@ h6 {
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: -10px;
-  font-size: 48px;
+  font-family: 'GyeonggiTitleM';
+  font-size: 78px;
   font-weight: 700;
 }
 
@@ -198,8 +201,9 @@ h6 {
 #intro .intro-info h3 {
   color: #fff;
   margin-bottom: 70px;
-  font-size: 32px;
-  font-weight: 700;
+  font-family: 'GyeonggiTitleM';
+  font-size: 42px;
+  font-weight: 500;
 }
 
 #intro .intro-info .btn-get-started,
