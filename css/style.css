@@ -692,9 +692,11 @@ h6 {
   background: #6799FF;
 }
 
-#why-us .section-header h3,
+#why-us .section-header h3{
+  color: #fff;
+}
 #why-us .section-header p {
-  color: #283d50;
+  color: #fff;
 }
 
 #why-us .card {
@@ -704,14 +706,9 @@ h6 {
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
-  color: #fff;
+  color: #000;
   transition: 0.3s ease-in-out;
   height: 100%;
-}
-
-#why-us .card:hover {
-  background: #D9E5FF;
-  border-color: #D9E5FF;
 }
 
 #why-us .card i {
@@ -751,15 +748,33 @@ h6 {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #283d50;
+  color: #004289;
 }
 
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "GmarketSansMedium", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #cce5ff;
+}
+
+#why-us .btn-invite{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+#why-us .btn-invite {
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
 }
 
 /* Bots Section
@@ -1253,7 +1268,7 @@ h6 {
 
 #footer .footer-top {
   background: #004a99;
-  padding: 60px 0 30px 0;
+  padding: 40px 0 10px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -1310,7 +1325,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1320,7 +1335,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 8px 0;
+  padding: 2px 0;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1370,12 +1385,12 @@ h6 {
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 #footer .credits {
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   color: #f1f7ff;
 }
 

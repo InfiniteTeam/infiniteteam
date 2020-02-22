@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="utf-8">
   <title>InfiniteTEAM</title>
@@ -54,9 +54,7 @@
           <li class="active"><a href="#intro">홈</a></li>
           <li><a href="#about">소개</a></li>
           <li><a href="#services">기능</a></li>
-          <li><a href="#why-us">통계</a></li>
-          <li><a href="#portfolio">포트폴리오</a></li>
-          <li class="drop-down"><a href="">디스코드 봇</a>
+          <li class="drop-down"><a href="#why-us">디스코드 봇</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="drop-down"><a href="#">Drop Down 2</a>
@@ -73,6 +71,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li>
+          <li><a href="#portfolio">포트폴리오</a></li>
         </ul>
       </nav><!-- .main-nav -->
 
@@ -101,8 +100,8 @@
     <section id="about">
       <div class="container">
         <div class="section-header">
-          <h3>팀원</h3>
-          <p>저희 Infinite TEAM은 5명의 팀원으로 구성되어 있습니다.</p>
+          <h3>소개</h3>
+          <p>InfiniteTEAM은 비영리 디스코드 봇 개발 팀입니다.</p>
         </div>
 
         <div class="row">
@@ -186,55 +185,7 @@
         </div>
       </div>
     </section><!-- #team -->
- <!--==========================
-      Bots Section
-    ============================-->
-    <section id="bots">
-      <div class="container">
-        <div class="section-header">
-          <h3>디스코드 봇</h3>
-          <p>Infinite TEAM 에서 개발한 봇입니다.<br>더 자세한 봇의 기능을 확인하고,<br>초대하고 싶으시다면 자세히보기 버튼을 눌러주시길 바랍니다.</p>
-        </div>
 
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="img/tunabot.png" title="ArpaAP" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4><strong>참치봇 v2</strong></h4>
-                  <span><strong>여러 미니게임으로 즐거움을!<br><br></strong></span>
-                  <div class="social">
-                    <a href="https://github.com/InfiniteTeam/TunaBot-v2" title="GitHub" target="_blank"><i class="fa fa-github fa-lg"></i></a>
-                  </div>
-                  <br>
-                  <a href="#about" class="btn-invite scrollto">자세히 보기</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="member">
-              <img src="img/salmonbot.png" title="COiN" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4><strong>연어봇</strong></h4>
-                  <span><strong>서버 관리/미니게임 등 여러기능들을 종합하여 서버를 더 활기차게!</strong></span>
-                  <div class="social">
-                    <a href="https://github.com/InfiniteTeam/SalmonBot" title="GitHub" target="_blank"><i class="fa fa-github fa-lg"></i></a>
-                  </div>
-                  <br>
-                  <a href="#about" class="btn-invite scrollto">자세히 보기</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- #bots -->
     <!--==========================
       Services Section
     ============================-->
@@ -312,32 +263,34 @@
 
           <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
-                <i class="fa fa-diamond"></i>
               <div class="card-body">
-                <h5 class="card-title">연어봇 v2</h5>
+                <img src="img/tunabot.png" title="참치봇v2" width=128, height=128>
+                <h5 class="card-title">참치봇 v2</h5>
                 <p class="card-text">여러 미니게임으로 즐거움을!<br><br></p>
-                <a href="#" class="readmore">자세히 보기 </a>
+                <a href="#" class="btn-invite scrollto">자세히 보기</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
-                <i class="fa fa-language"></i>
               <div class="card-body">
+                <img src="img/salmon.png" title="연어봇" width=128, height=128>
                 <h5 class="card-title">연어봇</h5>
-                <p class="card-text">서버 관리/미니게임 등 여러기능들을 종합하여 서버를 더 활기차게!<br></p>
-                <a href="#" class="readmore">자세히 보기 </a>
+                <p class="card-text">수많은 기능들을 종합하여 서버를 더 활기차게!<br></p>
+                <br>
+                <a href="#" class="btn-invite scrollto">자세히 보기</a>
               </div>
             </div>
           </div>
           
           <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
-                <i class="fa fa-language"></i>
+              <br>
+              <br>
+                <i class="fa fa-question"></i>
               <div class="card-body">
-                <h5 class="card-title">추후 개발될 예정입니다</h5>
-                <p class="card-text">앞으로도 성장하는 Infinite TEAM이 되겠습니다<br></p>
+                <h5 class="card-title">언젠가 개발될 새 봇이 들어올 자리입니다.</h5>
               </div>
             </div>
           </div>
@@ -684,7 +637,7 @@
               <li><a href="#intro" class="scrollto">홈</a></li>
               <li><a href="#about" class="scrollto">소개</a></li>
               <li><a href="#services" class="scrollto">기능</a></li>
-              <li><a href="#why-us" class="scrollto">통계</a></li>
+              <li><a href="#why-us" class="scrollto">디스코드 봇</a></li>
               <li><a href="#" class="scrollto">Terms of service</a></li>
               <li><a href="#" class="scrollto">Privacy policy</a></li>
             </ul>
