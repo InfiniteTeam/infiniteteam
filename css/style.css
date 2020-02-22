@@ -710,14 +710,14 @@ h6 {
 }
 
 #why-us .card:hover {
-  background: #dbdbdb;
-  border-color: #dbdbdb;
+  background: #D9E5FF;
+  border-color: #D9E5FF;
 }
 
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: #283d50;
 }
 
 #why-us .card h5 {
@@ -727,19 +727,19 @@ h6 {
 
 #why-us .card p {
   font-size: 15px;
-  color: #d8eafe;
+  color: #283d50;
 }
 
 #why-us .card .readmore {
-  color: #fff;
+  color: #283d50;
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
+  border-bottom: #283d50 solid 3px;
 }
 
 #why-us .card .readmore:hover {
-  border-bottom: #fff solid 2px;
+  border-bottom: #fff solid 3px;
 }
 
 #why-us .counters {
