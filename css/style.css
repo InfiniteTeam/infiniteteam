@@ -697,7 +697,7 @@ h6 {
 }
 
 #services .description p {
-  font-family: "NanumSquareRound"
+  font-family: "NanumSquareRound";
 }
 
 #why-us {
@@ -725,17 +725,20 @@ h6 {
 }
 
 #why-us .card i {
+  font-family: "NanumSquareRound";
   font-size: 48px;
   padding-top: 15px;
   color: #283d50;
 }
 
 #why-us .card h5 {
+  font-family: "NanumSquareRound";
   font-size: 22px;
   font-weight: 600;
 }
 
 #why-us .card p {
+  font-family: "NanumSquareRound";
   font-size: 15px;
   color: #283d50;
 }
