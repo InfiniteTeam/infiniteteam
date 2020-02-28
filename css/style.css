@@ -681,10 +681,12 @@ h6 {
 
 #services .title a {
   color: #283d50;
+  font-family: "NanumSquareRound"
 }
 
 #services .box:hover .title a {
   color: #007bff;
+  font-family: "NanumSquareRound"
 }
 
 #services .description {
