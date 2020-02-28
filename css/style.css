@@ -696,6 +696,10 @@ h6 {
   margin-bottom: 0;
 }
 
+#services .description p {
+  font-family: "NanumSquareRound"
+}
+
 #why-us {
   padding: 60px 0;
   background: #6799FF;
