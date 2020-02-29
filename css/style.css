@@ -690,14 +690,11 @@ h6 {
 }
 
 #services .description {
+  font-family: "NanumSquareRound";
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
-}
-
-#services .description p {
-  font-family: "NanumSquareRound";
 }
 
 #why-us {
@@ -725,7 +722,6 @@ h6 {
 }
 
 #why-us .card i {
-  font-family: "NanumSquareRound";
   font-size: 48px;
   padding-top: 15px;
   color: #283d50;
